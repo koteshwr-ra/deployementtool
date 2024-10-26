@@ -1,0 +1,29 @@
+package com.google.common.base;
+
+import javax.annotation.Nullable;
+
+public final class Verify {
+    public static void verify(boolean z) {
+        if (!z) {
+            throw new VerifyException();
+        }
+    }
+
+    public static void verify(boolean z, @Nullable String str, @Nullable Object... objArr) {
+        if (!z) {
+            throw new VerifyException(Preconditions.format(str, objArr));
+        }
+    }
+
+    public static <T> T verifyNotNull(@Nullable T t) {
+        return verifyNotNull(t, "expected a non-null reference", new Object[0]);
+    }
+
+    public static <T> T verifyNotNull(@Nullable T t, @Nullable String str, @Nullable Object... objArr) {
+        verify(t != null, str, objArr);
+        return t;
+    }
+
+    private Verify() {
+    }
+}

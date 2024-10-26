@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/shape_build_info_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/rv_gateway" android:paddingBottom="@dimen/size_0" android:layout_width="@dimen/size_947" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:limit_maxHeight="@dimen/pt261" style="@style/main_recycle_view"/>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@+id/about_wh_address_add_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pt40" android:layout_marginBottom="@dimen/pt34" android:layout_marginStart="@dimen/pt80">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/about_wh_address_add_iv" android:layout_width="@dimen/pt30" android:layout_height="@dimen/pt30" android:src="@mipmap/icon_add_gateway"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/pt24" android:textColor="@color/_0560FD" android:id="@+id/about_wh_address_add_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_add_gateway" android:layout_marginStart="@dimen/pt12"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

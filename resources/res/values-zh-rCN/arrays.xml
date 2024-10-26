@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="navigation_ask_for_directions">
+        <item>问路</item>
+    </array>
+    <array name="navigation_cancle_navigation">
+        <item>取消</item>
+    </array>
+    <array name="navigation_change_some_one">
+        <item>换一个</item>
+        <item>换一首</item>
+        <item>换个歌</item>
+        <item>换个电影</item>
+    </array>
+    <array name="navigation_company_hot_words">
+        <item>门岗机器人</item>
+        <item>巡逻机器人</item>
+        <item>消毒机器人</item>
+        <item>涂总</item>
+        <item>沈总</item>
+        <item>王院</item>
+    </array>
+    <array name="navigation_dance">
+        <item>跳舞</item>
+        <item>打开舞蹈</item>
+        <item>跳个舞</item>
+    </array>
+    <array name="navigation_default_answer">
+        <item>不好意思,我没听清楚</item>
+        <item>我在用心听,您再说一次</item>
+        <item>您慢点说,可以吗</item>
+        <item>不好意思,刚刚走神了</item>
+    </array>
+    <array name="navigation_default_wakeup_answer">
+        <item>你好</item>
+        <item>在呢</item>
+    </array>
+    <array name="navigation_exit_app">
+        <item>退出应用程序</item>
+    </array>
+    <array name="navigation_go_here">
+        <item>去这里</item>
+        <item>开始导览</item>
+    </array>
+    <array name="navigation_go_home">
+        <item>主页</item>
+    </array>
+    <array name="navigation_guide_tour">
+        <item>导览</item>
+    </array>
+    <array name="navigation_introduce">
+        <item>介绍</item>
+    </array>
+    <array name="navigation_jump_over">
+        <item>跳过</item>
+    </array>
+    <array name="navigation_keyworld_GoAhead">
+        <item>向前</item>
+        <item>往前</item>
+        <item>前进</item>
+        <item>前走</item>
+        <item>往前走</item>
+        <item>往前进</item>
+        <item>过来</item>
+        <item>向前移动</item>
+    </array>
+    <array name="navigation_keyworld_stop">
+        <item>停止移动</item>
+        <item>停下来</item>
+        <item>别动了</item>
+        <item>不要动</item>
+        <item>不动</item>
+        <item>站住</item>
+        <item>站好</item>
+        <item>立正</item>
+        <item>别走了</item>
+    </array>
+    <array name="navigation_keyworld_turnLeft">
+        <item>向左</item>
+        <item>往左</item>
+        <item>左转</item>
+        <item>左移动</item>
+    </array>
+    <array name="navigation_keyworld_turnRight">
+        <item>向右</item>
+        <item>往右</item>
+        <item>右转</item>
+        <item>右移动</item>
+    </array>
+    <array name="navigation_listen_music">
+        <item>本地音乐</item>
+    </array>
+    <array name="navigation_next_one">
+        <item>下一首</item>
+        <item>下一曲</item>
+        <item>下一个</item>
+    </array>
+    <array name="navigation_open_camera">
+        <item>打开相机</item>
+        <item>我要拍照</item>
+    </array>
+    <array name="navigation_play_list">
+        <item>列表</item>
+    </array>
+    <array name="navigation_play_pause">
+        <item>暂停</item>
+        <item>停一下</item>
+        <item>停下</item>
+        <item>停一停</item>
+        <item>等一等</item>
+        <item>等等</item>
+    </array>
+    <array name="navigation_play_quit">
+        <item>退出</item>
+        <item>关闭</item>
+        <item>返回</item>
+    </array>
+    <array name="navigation_play_restart">
+        <item>重新播放</item>
+    </array>
+    <array name="navigation_play_resume">
+        <item>继续</item>
+    </array>
+    <array name="navigation_position_type">
+        <item>请选择当前位置点</item>
+        <item>请选择目标位置点</item>
+    </array>
+    <array name="navigation_previous_one">
+        <item>上一首</item>
+        <item>上一曲</item>
+        <item>上一个</item>
+    </array>
+    <array name="navigation_set_init_position">
+        <item>设置初始位置</item>
+    </array>
+    <array name="navigation_shut_up">
+        <item>闭嘴</item>
+        <item>别说</item>
+        <item>停止说话</item>
+        <item>不要说</item>
+    </array>
+    <array name="navigation_start_propagandize">
+        <item>导航引路</item>
+        <item>我要去</item>
+        <item>带我去</item>
+        <item>怎么走</item>
+    </array>
+    <array name="navigation_visit">
+        <item>拜访</item>
+    </array>
+    <array name="navigation_volume_add">
+        <item>音量+</item>
+        <item>音量加</item>
+        <item>声音大一点</item>
+        <item>再大一点</item>
+        <item>声音大点</item>
+        <item>音量大点</item>
+        <item>音量大一点</item>
+        <item>大点声</item>
+    </array>
+    <array name="navigation_volume_dec">
+        <item>音量-</item>
+        <item>音量减</item>
+        <item>音量小一点</item>
+        <item>声音小一点</item>
+        <item>再小一点</item>
+        <item>声音小点</item>
+        <item>小点声</item>
+    </array>
+    <array name="navigation_watching_movies">
+        <item>我要看电影</item>
+        <item>我想看电影</item>
+        <item>看个电影</item>
+        <item>放个电影</item>
+        <item>打开电影</item>
+        <item>播放电影</item>
+        <item>播放视频</item>
+    </array>
+</resources>

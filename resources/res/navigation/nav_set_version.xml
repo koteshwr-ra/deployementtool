@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/nav_set_version" app:startDestination="@+id/versionFragment">
+    <fragment android:label="VersionFragment" android:name="mc.csst.com.selfchassis.ui.fragment.set.version.VersionFragment" android:id="@+id/versionFragment">
+        <action android:id="@+id/action_versionFragment_to_onlineUpdateConfigFragment" app:destination="@+id/onlineUpdateConfigFragment"/>
+    </fragment>
+    <fragment android:label="OnlineUpdateConfigFragment" android:name="mc.csst.com.selfchassis.ui.fragment.set.version.OnlineUpdateConfigFragment" android:id="@+id/onlineUpdateConfigFragment">
+        <action android:id="@+id/action_onlineUpdateConfigFragment_to_versionFragment" app:destination="@+id/versionFragment"/>
+    </fragment>
+</navigation>

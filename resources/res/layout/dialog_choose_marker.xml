@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/root_rl" android:tag="layout/dialog_choose_marker_0" android:layout_width="@dimen/size_1110" android:layout_height="@dimen/size_600">
+    <androidx.constraintlayout.widget.ConstraintLayout android:tag="binding_1" android:background="@drawable/shape_rectangle_white_dialog_10" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/title_tv" android:layout_width="match_parent" android:layout_marginTop="@dimen/size_39" android:text="@string/dialog_choose_marker_title" android:layout_marginStart="@dimen/size_62" android:layout_marginEnd="@dimen/size_71" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/DialogTitleTextView"/>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/marker_swipe_refresh" android:layout_width="@dimen/size_0" android:layout_height="@dimen/size_0" android:layout_marginTop="@dimen/size_50" android:layout_marginBottom="@dimen/size_92" app:layout_constraintBottom_toTopOf="@+id/buttons" app:layout_constraintEnd_toEndOf="@+id/title_tv" app:layout_constraintStart_toStartOf="@+id/title_tv" app:layout_constraintTop_toBottomOf="@+id/title_tv">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/marker_recycle" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextView android:textSize="@dimen/size_30" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <include android:id="@+id/buttons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/size_57" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" layout="@layout/dialog_bottom"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:oneshot="false">
+    <item android:duration="333" android:drawable="@mipmap/r0"/>
+    <item android:duration="333" android:drawable="@mipmap/r1"/>
+    <item android:duration="333" android:drawable="@mipmap/r2"/>
+    <item android:duration="333" android:drawable="@mipmap/r3"/>
+</animation-list>

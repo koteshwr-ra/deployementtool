@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/pt92">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@+id/tv_sensor_name" android:text="@string/set_ultrasonic" android:layout_marginStart="@dimen/pt70" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/set_text_black"/>
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rg_sensor" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/size_95" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@+id/rb_sensor_open" android:checked="true" android:text="@string/open" android:paddingStart="@dimen/size_12" android:layout_marginEnd="@dimen/size_162" style="@style/set_rBtn"/>
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@+id/rb_sensor_close" android:text="@string/close" android:paddingStart="@dimen/size_12" style="@style/set_rBtn"/>
+    </RadioGroup>
+    <View android:id="@+id/view_line" android:background="@color/clr_EDEDED" android:layout_width="match_parent" android:layout_height="@dimen/pt2" android:layout_marginStart="@dimen/size_70" android:layout_marginEnd="@dimen/size_70" app:layout_constraintBottom_toBottomOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

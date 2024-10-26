@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2311201" android:versionName="KCRJ8261A_V2.1.6_2311201_beta" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.ciot.sentrymove" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:theme="@style/Theme.SelfChassisDemo" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="mc.csst.com.selfchassis.App" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true" android:networkSecurityConfig="@xml/network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <activity android:name="mc.csst.com.selfchassis.ui.activity.main.MainActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="mc.csst.com.selfchassis.ui.activity.set.SetActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name="mc.csst.com.selfchassis.ui.adb.AdbActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="mc.csst.com.selfchassis.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:name="com.limpoxe.support.servicemanager.ServiceProvider" android:exported="false" android:authorities="com.ciot.sentrymove.svcmgr"/>
+        <activity android:theme="@style/ActivityTranslucent" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/ActivityTranslucent" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:multiprocess="true" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:name="com.blankj.utilcode.util.UtilsFileProvider" android:exported="false" android:authorities="com.ciot.sentrymove.utilcode.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.ciot.sentrymove.messenger"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/permission_PermissionActivity" android:name="com.yhao.floatwindow.FloatActivity" android:launchMode="standard" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.ciot.sentrymove.lifecycle-process"/>
+        <provider android:name="com.noober.background.BackgroundContentProvider" android:exported="false" android:multiprocess="true" android:authorities="com.ciot.sentrymove.backgroundLibrary"/>
+    </application>
+</manifest>

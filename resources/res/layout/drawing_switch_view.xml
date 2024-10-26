@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/shape_label_camera_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@+id/llIntellectDrawing" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@+id/ivIntellectDrawing" android:layout_width="@dimen/pt54" android:layout_height="@dimen/pt54" android:layout_marginTop="@dimen/pt24" android:src="@drawable/icon_intelligence_draw_blue"/>
+        <TextView android:textSize="@dimen/pt20" android:textColor="@color/_ff1b6efd" android:layout_gravity="center_horizontal" android:id="@+id/tvIntellectDrawing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pt10" android:text="@string/text_intelligence_draw" android:layout_marginStart="@dimen/pt25" android:layout_marginEnd="@dimen/pt25"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@+id/llTrackDrawing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pt24">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@+id/ivTrackDrawing" android:layout_width="@dimen/pt54" android:layout_height="@dimen/pt54" android:layout_marginTop="@dimen/pt24" android:src="@drawable/icon_trajectory_draw_grey"/>
+        <TextView android:textSize="@dimen/pt20" android:textColor="@color/_ff333333" android:layout_gravity="center_horizontal" android:id="@+id/tvTrackDrawing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pt10" android:text="@string/text_trajectory_draw" android:layout_marginStart="@dimen/pt25" android:layout_marginEnd="@dimen/pt25"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

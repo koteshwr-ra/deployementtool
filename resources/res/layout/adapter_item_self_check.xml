@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/root_ln" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/size_64" app:layout_constraintTop_toTopOf="0">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_24" android:textColor="@color/clr_000000" android:gravity="center" android:id="@+id/hardware_tv" android:layout_width="@dimen/size_307" android:layout_height="match_parent" android:text="@string/hardware"/>
+        <View android:background="@color/clr_DDDDDD" android:layout_width="@dimen/size_1" android:layout_height="match_parent"/>
+        <RelativeLayout android:gravity="center" android:layout_width="@dimen/size_218" android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/status_iv" android:background="@drawable/rb_check" android:layout_width="@dimen/size_30" android:layout_height="@dimen/size_30"/>
+        </RelativeLayout>
+        <View android:background="@color/clr_DDDDDD" android:layout_width="@dimen/size_1" android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_24" android:textColor="@color/clr_000000" android:gravity="center" android:id="@+id/error_code_tv" android:layout_width="@dimen/size_199" android:layout_height="match_parent" android:text="@string/error_code"/>
+        <View android:background="@color/clr_DDDDDD" android:layout_width="@dimen/size_1" android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_24" android:textColor="@color/clr_000000" android:gravity="center" android:id="@+id/addtion_info_tv" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/addtion_info"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

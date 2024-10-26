@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lane">
+        <item>@string/text_single_lane</item>
+        <item>@string/text_double_lane</item>
+    </array>
+    <array name="navigation_ask_for_directions">
+        <item>ask for directions</item>
+    </array>
+    <array name="navigation_cancle_navigation">
+        <item>cancle Navigation</item>
+    </array>
+    <array name="navigation_change_some_one">
+        <item>Change a song</item>
+        <item>Another one</item>
+        <item>Switch to another</item>
+        <item>Change a movie</item>
+    </array>
+    <array name="navigation_company_hot_words">
+        <item>门岗机器人</item>
+        <item>巡逻机器人</item>
+        <item>消毒机器人</item>
+        <item>涂总</item>
+        <item>沈总</item>
+        <item>王院</item>
+    </array>
+    <array name="navigation_company_replace_words">
+        <item>深圳市</item>
+        <item>深圳</item>
+        <item>（中国）有限公司</item>
+        <item>服务（集团）有限公司</item>
+        <item>网络技术有限公司</item>
+        <item>股份有限公司</item>
+        <item>发展有限公司</item>
+        <item>服务有限公司</item>
+        <item>有限公司</item>
+        <item>国际文化传媒集团</item>
+        <item>医疗美容</item>
+        <item>集团</item>
+    </array>
+    <array name="navigation_dance">
+        <item>Dance</item>
+        <item>Start dancing</item>
+        <item>Have a dance</item>
+        <item>Take a dance</item>
+    </array>
+    <array name="navigation_default_answer">
+        <item>Sorry, I didn&apos;t hear clearly</item>
+        <item>I listened carefully, can you say that again</item>
+        <item>Speak slowly.please</item>
+    </array>
+    <array name="navigation_default_wakeup_answer">
+        <item>Hello</item>
+        <item>What can I do for you</item>
+        <item>Can I help you</item>
+    </array>
+    <array name="navigation_exit_app">
+        <item>Quit this app</item>
+        <item>Exit</item>
+        <item>Close this app</item>
+    </array>
+    <array name="navigation_go_here">
+        <item>go here</item>
+    </array>
+    <array name="navigation_go_home">
+        <item>go home</item>
+    </array>
+    <array name="navigation_guide_tour">
+        <item>guide tour</item>
+    </array>
+    <array name="navigation_hello">
+        <item>Say hello</item>
+        <item>Wave hands</item>
+    </array>
+    <array name="navigation_introduce">
+        <item>introduce</item>
+    </array>
+    <array name="navigation_jump_over">
+        <item>jump over</item>
+    </array>
+    <array name="navigation_keyworld_GoAhead">
+        <item>Come here</item>
+        <item>Go ahead</item>
+        <item>Walk forward</item>
+        <item>Go forward</item>
+        <item>Move forward</item>
+        <item>Move on</item>
+    </array>
+    <array name="navigation_keyworld_stop">
+        <item>Stop moving</item>
+        <item>Don&apos;t move</item>
+    </array>
+    <array name="navigation_keyworld_turnLeft">
+        <item>Turn left</item>
+    </array>
+    <array name="navigation_keyworld_turnRight">
+        <item>Turn right</item>
+    </array>
+    <array name="navigation_listen_music">
+        <item>Sing a song</item>
+        <item>Play music</item>
+        <item>I want to listen to music</item>
+    </array>
+    <array name="navigation_next_one">
+        <item>Next song</item>
+        <item>Next one</item>
+        <item>Next music</item>
+    </array>
+    <array name="navigation_open_camera">
+        <item>Open Camera</item>
+        <item>Take Piture</item>
+    </array>
+    <array name="navigation_play_list">
+        <item>List</item>
+        <item>LIST</item>
+        <item>list</item>
+    </array>
+    <array name="navigation_play_pause">
+        <item>Pause</item>
+        <item>Be quit</item>
+        <item>close music</item>
+        <item>Quit music</item>
+        <item>close movie</item>
+        <item>close dance</item>
+        <item>Quit playing</item>
+        <item>Stop playing</item>
+        <item>Stop playing music</item>
+        <item>Quit playing movie</item>
+        <item>Quit playing music</item>
+        <item>Exit</item>
+    </array>
+    <array name="navigation_play_quit">
+        <item>drop out</item>
+        <item>stop</item>
+        <item>shut down</item>
+        <item>End play</item>
+        <item>Do not sing</item>
+        <item>Do not jump</item>
+        <item>Do not put</item>
+        <item>Do not sing</item>
+        <item>Do not jump</item>
+        <item>Do not put</item>
+    </array>
+    <array name="navigation_play_restart">
+        <item>Restart</item>
+    </array>
+    <array name="navigation_play_resume">
+        <item>Go on</item>
+        <item>Continue</item>
+        <item>Resume</item>
+    </array>
+    <array name="navigation_position_type">
+        <item>Select the current location point</item>
+        <item>Select the target location point</item>
+    </array>
+    <array name="navigation_previous_one">
+        <item>Previous</item>
+        <item>Last one</item>
+    </array>
+    <array name="navigation_salute">
+        <item>Salute</item>
+    </array>
+    <array name="navigation_set_init_position">
+        <item>Set the initial position</item>
+    </array>
+    <array name="navigation_shake_hands">
+        <item>Handshake</item>
+    </array>
+    <array name="navigation_shut_up">
+        <item>Shut up</item>
+        <item>Stop talking</item>
+    </array>
+    <array name="navigation_start_propagandize">
+        <item>Start to receive guests</item>
+        <item>Navigation</item>
+    </array>
+    <array name="navigation_visit">
+        <item>visit</item>
+    </array>
+    <array name="navigation_volume_add">
+        <item>Be louder</item>
+        <item>Increase volume</item>
+        <item>Speak louder</item>
+        <item>Volume up</item>
+    </array>
+    <array name="navigation_volume_dec">
+        <item>Speak softer</item>
+        <item>Volume down</item>
+        <item>Decrease volume</item>
+    </array>
+    <array name="navigation_watching_movies">
+        <item>I want to see a movie</item>
+        <item>See a movie</item>
+        <item>Play movies</item>
+        <item>Play movie</item>
+        <item>I want to watch a movie</item>
+        <item>I want to watch movies</item>
+    </array>
+    <array name="velocity">
+        <item>@string/text_high</item>
+        <item>@string/text_middle</item>
+        <item>@string/text_low</item>
+    </array>
+</resources>

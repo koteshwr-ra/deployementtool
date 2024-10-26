@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/map_root_cl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <mc.csst.com.selfchassis.utils.view.map.MapBgView android:id="@+id/map_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="matrix"/>
+    <RelativeLayout android:id="@+id/map_visual_label_rl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <mc.csst.com.selfchassis.utils.view.map.VirtualWallView android:id="@+id/map_virtual_wall" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <mc.csst.com.selfchassis.utils.view.map.area.MapAreaView android:id="@+id/map_area" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <mc.csst.com.selfchassis.utils.view.map.RectView android:id="@+id/map_rect" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/map_info_fl" android:layout_width="match_parent" android:layout_height="match_parent">
+        <mc.csst.com.selfchassis.utils.view.map.LocalLeaserPathView android:id="@+id/map_info_llpv" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/map_point_line_area_rl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

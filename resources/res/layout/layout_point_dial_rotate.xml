@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="@dimen/pt234" android:layout_height="@dimen/pt234">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/pt234" android:layout_height="@dimen/pt234" android:src="@mipmap/bg_point_dial" android:scaleType="fitXY"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/pt194" android:layout_height="@dimen/pt194">
+            <mc.csst.com.selfchassis.ui.widget.disc.PointRockerView android:id="@+id/point_rocker_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/btnTop" android:layout_width="@dimen/pt50" android:layout_height="@dimen/pt25" android:layout_marginTop="@dimen/pt14">
+                <ImageButton android:layout_gravity="center_horizontal" android:background="@android:color/transparent" android:clickable="false" android:layout_width="@dimen/pt25" android:layout_height="@dimen/pt16" android:scaleType="fitXY" app:srcCompat="@drawable/arrow_top_selector"/>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/btnLeft" android:layout_width="@dimen/pt25" android:layout_height="@dimen/pt50" android:layout_marginStart="@dimen/pt14">
+                <ImageButton android:layout_gravity="center_vertical" android:background="@android:color/transparent" android:clickable="false" android:layout_width="@dimen/pt16" android:layout_height="@dimen/pt25" android:scaleType="fitXY" app:srcCompat="@drawable/arrow_left_selector"/>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/btnBottom" android:layout_width="@dimen/pt50" android:layout_height="@dimen/pt25" android:layout_marginBottom="@dimen/pt14">
+                <ImageButton android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:background="@android:color/transparent" android:clickable="false" android:layout_width="@dimen/pt25" android:layout_height="@dimen/pt16" android:scaleType="fitXY" app:srcCompat="@drawable/arrow_bottom_selector"/>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/btnRight" android:layout_width="@dimen/pt25" android:layout_height="@dimen/pt50" android:layout_marginEnd="@dimen/pt14">
+                <ImageButton android:layout_gravity="right|center_vertical|center_horizontal|center" android:background="@android:color/transparent" android:clickable="false" android:layout_width="@dimen/pt16" android:layout_height="@dimen/pt25" android:scaleType="fitXY" app:srcCompat="@drawable/arrow_right_selector"/>
+            </FrameLayout>
+        </FrameLayout>
+        <mc.csst.com.selfchassis.ui.widget.disc.TempControlView android:layout_gravity="center_horizontal" android:id="@+id/temp_control" android:layout_width="@dimen/pt102" android:layout_height="@dimen/pt102" android:layout_marginTop="@dimen/pt46" android:layout_centerInParent="true"/>
+    </FrameLayout>
+</FrameLayout>

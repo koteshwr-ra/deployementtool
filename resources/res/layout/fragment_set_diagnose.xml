@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/fragment_set_diagnose_0" android:background="@drawable/shape_rectangle_white_set_5" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@+id/btn_diagnose" android:layout_marginTop="@dimen/pt33" android:layout_marginBottom="@dimen/pt33" android:text="@string/diagnose" android:layout_marginStart="@dimen/pt70" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/set_text_black"/>
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btn_start_detection" android:text="@string/start_detection" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" style="@style/setting_btn_style"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@+id/line1" android:background="@color/clr_EDEDED" android:layout_width="match_parent" android:layout_height="@dimen/pt2" android:layout_marginStart="@dimen/pt70" android:layout_marginEnd="@dimen/pt70"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@+id/btn_log_processing" android:layout_marginTop="@dimen/pt33" android:layout_marginBottom="@dimen/pt33" android:text="@string/log_processing" android:layout_marginStart="@dimen/pt70" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/set_text_black"/>
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btn_clear_log" android:text="@string/clear_log" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" style="@style/setting_btn_style"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

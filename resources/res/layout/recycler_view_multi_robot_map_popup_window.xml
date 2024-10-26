@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/shape_build_info_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/main_build_name_rv" android:paddingBottom="@dimen/size_0" android:layout_width="@dimen/size_320" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:limit_maxHeight="@dimen/pt261" style="@style/main_recycle_view"/>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/main_floor_rv" android:layout_width="@dimen/size_320" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:limit_maxHeight="@dimen/pt261" style="@style/main_recycle_view"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

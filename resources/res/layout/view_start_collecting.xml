@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@+id/ll_start_collecting" android:background="@drawable/shape_label_camera_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/iv_state" android:layout_width="@dimen/pt40" android:layout_height="@dimen/pt40" android:layout_marginTop="@dimen/pt17" android:layout_marginBottom="@dimen/pt17" android:src="@drawable/icon_start_drawing" android:layout_marginStart="@dimen/pt20"/>
+        <TextView android:textSize="@dimen/pt24" android:textStyle="bold" android:textColor="#ff0560fd" android:layout_gravity="center_vertical" android:id="@+id/tv_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_start_collecting" android:layout_marginStart="@dimen/pt20" android:layout_marginEnd="@dimen/pt20"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
